@@ -1,0 +1,147 @@
+/* навигационная панель rgba(79, 154, 212, 0.871);*/
+nav.navigation_block
+{
+    background-color:rgb(9, 95, 68);
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+ul.navigation_spisok
+{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.navigation
+{
+    float: left;
+}
+
+li.navigation a
+{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li.navigation_about a
+{
+    display: block;
+    float: right;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li.navigation a:hover 
+{
+    background-color: #111;
+}
+
+li.navigation_about a:hover 
+{
+    background-color: #111;
+}
+
+/* основной блок - боди*/
+body
+{
+    background: linear-gradient(#065814af,#129528ce);
+    padding: 0;
+    margin: 0px;
+
+}
+
+p
+{
+    margin: 10px 10px;
+    padding: 1px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:large;
+    color: rgb(21, 20, 20);
+}
+
+li
+{
+    color: rgb(21, 20, 20);
+}
+
+img
+{
+    border-radius: 10px;
+}
+div.shvarc
+{
+    padding: 8px;
+    text-align: center;
+    min-width: auto;
+    max-height: auto;
+}
+
+div.simpson
+{
+    padding: 8px;
+    text-align: center;
+    min-width: auto;
+    max-height: auto;    
+}
+h1
+{
+    color: rgb(21, 20, 20);
+    margin: 5px 5px;
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2
+{
+    color: rgb(21, 20, 20);
+    margin: 1px 11px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3
+{
+    color: rgb(21, 20, 20);
+    margin: 1px 11px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: larger;
+}
+
+span.smile
+{
+    font-style: normal;
+}
+/* нижняя граница - ноги*/
+ footer
+ {
+    display: inline-block;
+    background-color: rgba(31, 61, 36, 0.523);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+ }
+
+ p.footer_text 
+ {
+    text-align: center;
+    font-style: normal;
+    font-size: smaller;
+    line-height: 100%;
+ }
